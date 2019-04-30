@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=HW
+Exec=hw
+Icon=assets/logo.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+Name[en_US]=hw.desktop

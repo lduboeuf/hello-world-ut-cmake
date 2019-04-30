@@ -1,0 +1,6 @@
+{
+  "template": "cmake",
+  "kill": "hw",
+  "build_args": "-DUBUNTU_TOUCH=ON"
+}
+

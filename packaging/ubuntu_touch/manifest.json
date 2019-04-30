@@ -1,0 +1,15 @@
+{
+    "name": "hw.lduboeuf",
+    "description": "Minimal Hello World",
+    "architecture": "armhf",
+    "title": "hw",
+    "hooks": {
+        "todos": {
+            "apparmor": "hw.apparmor",
+            "desktop":  "hw.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "lionel <lionel.duboeuf@gmail.com>",
+    "framework" : "ubuntu-sdk-16.04"
+}
