@@ -20,8 +20,8 @@ if (UBUNTU_TOUCH)
 
     set(UT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/packaging/ubuntu_touch)
     install(FILES ${UT_PATH}/manifest.json DESTINATION /)
-    install(FILES ${UT_PATH}/${PROJECT_NAME}.apparmor DESTINATION /)
-    install(FILES ${UT_PATH}/${PROJECT_NAME}.desktop DESTINATION /)
+    install(FILES ${UT_PATH}/hw.apparmor DESTINATION /)
+    install(FILES ${UT_PATH}/hw.desktop DESTINATION /)
     install(FILES assets/logo.png DESTINATION /assets/)
 
     install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION /)
